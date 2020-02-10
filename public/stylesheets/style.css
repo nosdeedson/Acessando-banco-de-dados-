@@ -1,0 +1,200 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:rgba(230, 207, 207, 0.596);
+  position: relative;
+}
+
+header{
+  height: auto;
+  widows: auto;
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.primeiroItens{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25%;
+  background-color: black;
+}
+
+.divLogo img{
+  left: 50px;
+  height: 150px;
+  border-radius: 55px;
+  position: relative;
+  top: 1px;
+}
+
+/* caixa de pesquisa*/
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  position: relative;
+  top: 15px;
+  /* width:300px; */
+  /* height:32px; */
+}
+
+#txtBusca{
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:30px;
+  width:191px;
+}
+ 
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px; 
+  font-weight:bold; 
+  background:#5F9EA0; 
+}
+ 
+#divBusca img{
+  float:left;
+}
+
+.divUsuario{
+  display: inline-flex;
+  right: 40px;
+  height: 30px;
+  position: relative;
+  top:0px;
+}
+
+#user{
+  height: 60px;
+  background-color: yellowgreen;
+  border-radius: 25px;
+  position: relative;
+  top: -5px;
+  right: 130px;
+}
+
+.divUsuario h2{
+  font-size: large;
+  position: relative;
+  right: -50px;
+  top: 8px;
+}
+#carrinho{
+  max-width: 55px;
+  max-height: 55px;
+  position: relative;
+  right:0px;
+  top: 8px;
+}
+#qtd{
+  position: relative;
+  right: 25px;
+}
+h4{
+  color: yellow;
+  font-size: medium;
+}
+main{
+  height: auto;
+  padding-bottom: 55px;
+}
+
+#slides{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+#imagens{
+  width: auto;
+}
+#img1{
+  left: 5px;
+  position: relative;
+  top: 150px;
+}
+#img2{
+  position: relative;
+  top: -150px;
+  left: 1325px;
+}
+
+#primeirosProdutos, #segundoProdutos, #tereirosProdutos{
+  margin: 40px;
+  height: auto;
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+}
+.produto1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.p1{
+  margin: 10px;
+  background-color: white;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.produto1 img{
+  width: 90%;
+  height: 70%;
+  padding-left: 10px;
+}
+.produto1 h2{
+  text-align: center;
+}
+.setaRight, .setaLeft{
+  position: relative;
+  top: 40%;
+}
+.setaLeft{
+  left: 0;
+}
+#botao{
+  background-color: yellow;
+  position: relative;
+  left: 600px;
+}
+/* rodape */
+footer{
+  height: auto;
+  background-color: black;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 500px 450px auto;
+}
+.socialMedia{
+  height: auto;
+  display: inline-flexbox;
+  grid-template-columns: 80px 80px;
+  
+}
+.socialMedia h2{
+  position: relative;
+  top: 0;
+  padding-bottom: 5px;
+}
+#setaCima{
+  position: relative;
+  left: 350px;
+  top: -50px;
+  
+}
+#idTwitter, #idFace, #idLinkedin, #idInsta{
+  position: relative;
+  right: 55px;
+}

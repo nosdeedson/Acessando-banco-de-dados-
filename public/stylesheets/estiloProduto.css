@@ -1,0 +1,133 @@
+body{
+    background-color: #d3d3d3;
+}
+#product{
+    border: solid 1px;
+    box-sizing: content-box;
+    margin: 20px 50px;
+    background-color: rgb(224, 223, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#frenteMini{
+    position: relative;
+    top: -155px;
+    left: -125px;
+}
+#costaMini{
+    position: relative;
+    top: -40px;
+    left: -208px;
+}
+#frenteMini, #costaMini{
+    max-width: 80px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+}
+#escolhaTamanho{
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#escolhaTamanho h5{
+    font-size: 18px;
+}
+#botao3{
+    background-color: #ff0000;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: justify;
+}
+h2, h3{
+    font-size: 21px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#infoPagamento, #infoLoja{
+    margin: 3px 50px;
+    border: solid .5px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: center;
+    height: auto;
+}
+#infoLoja{
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    height: auto;
+}
+#pagamento{
+    background-color: #666;
+    max-height: 65%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#h2Pagamento{
+    text-align: center;
+}
+#cartao, #boleto{
+    position: relative;
+    max-width: 80%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+}
+#cartao{
+    left: 120px;
+}
+
+#boleto{
+    top: 130px;
+    right: 50px;
+}
+
+#vendedor{
+    margin-top: 10px;
+}
+
+#h2Vendedor{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#fotoPerfil{
+    
+    position: relative;
+    left: 120px;
+}
+#botao2{
+    background-color: yellowgreen;
+    position: relative;
+    left: 5px;
+    top: 25px;
+}
+
+
+#nomeLoja h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#localizacao{
+    padding-top: 20px;
+    position: relative;
+    width: 50px;
+    left: 500px;
+}
+
+#meuVideo{
+    position: relative;
+    left: 150px;
+    width: 600px;
+    height: 350px;
+    padding-top: 20px;
+}

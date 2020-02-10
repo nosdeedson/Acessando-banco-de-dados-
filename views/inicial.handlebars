@@ -1,0 +1,132 @@
+<header id="topo">
+      <div class="primeiroItens">
+        <div class="divLogo"> <a href="http://localhost:3000"><img src="/images/logo.png" alt="logo site"></a>></div>
+        <div id="divBusca">
+          <input type="text" id="txtBusca" placeholder="Buscar..." />
+          <button id="btnBusca">Buscar</button>
+        </div>
+        <div class="divUsuario"> 
+          <h2>Nome usuário</h2>
+          <img id="user" src="/images/user.png" alt="foto usuario">
+          <a id="acaoCarrinho" href="/layouts/paginaCarrinho.html"><img id="carrinho" src="/images/carrinho.png" alt=""></a>
+          <h4 id="qtd">0</h4>
+         </div>
+      </div>
+    </header>
+
+    <main id="produtos">
+      <!-- apresentação inicio -->
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img src="/images/img_nature_wide.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img src="/images/img_snow_wide.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img src="/images/img_mountains_wide.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+  
+      </div>
+      <!-- primeiros produtos -->
+      <div id="primeirosProdutos">
+        <img class="setaRight" src="/images/setaDireita.png">
+        <section class="produto1">
+          <div class="p1" >
+            <a id="testelink" href="/paginas/paginaProduto.handlebars"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+          <div class="p1" >
+            <a id="testelink" href="/paginas/paginaProduto.handlebars"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+          <div class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+          <div class="p1"  class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div class="p1" >
+          <div class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+         <!-- aqui -->
+        </section>
+        <img class="setaLeft" src="/images/setaEsquerda.png">
+      </div>
+
+      <div id="segundoProdutos">
+        <img class="setaRight" src="/images/setaDireita.png">
+        <section class="produto1">
+          <div class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+          <div class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+          <div class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+          <div class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+          <div class="p1" >
+            <a id="testelink" href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <h2>Camiseta BaWSaw</h2>
+            <h2>R$ 50,40</h2>
+          </div>
+     
+        </section>
+        <img class="setaLeft" src="/images/setaEsquerda.png">
+      </div>
+      <div id="maisProdutos">
+        <button id="botao">mostrar mais...</button>
+      </div>
+    </main>
+    <footer>
+      <div id="adress">
+        <h2>Rua: Coronel Renno, Pinheirinho</h2>
+      </div>
+      <div id="entregas">
+        <h2>Entregamos em Itajubá e Piranguinho</h2>
+      </div>
+      <div class="socialMedia"> 
+        <h2>Redes sociais</h2>
+        <a id="setaCima" href="#topo"><img src="/images/setaCima.png" alt=""></a>
+        <a href="https://twitter.com/" target="blank"><img id="idTwitter" src="/images/twitter.png"></a>
+        <a href="https://pt-br.facebook.com/" target="blank"><img id="idFace" src="/images/facebook.png"></a>
+        <a href="https://www.linkedin.com/home" target="blank"><img id="idLinkedin" src="/images/linkedin.png"></a>
+        <a href="https://www.instagram.com/?hl=pt-br" target="blank"><img id="idInsta" src="/images/instagram.png"></a>
+      </div>
+    </footer>
+    <script>
+      showSlides(0)
+      paginaProduto()
+      carrinhoAcao()
+      maisProdutos()
+    </script>
